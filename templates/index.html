@@ -17,27 +17,27 @@
       opacity: 0.8;
       min-height: 100vh;
     }
-
+  
     h1 {
       text-align: center;
       color: white;
     }
-
+  
     label,
     input,
     button {
       font-size: 1.3rem;
     }
-
+  
     .form-container {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      flex-wrap: wrap; 
-      max-width: 100%; 
+      flex-wrap: wrap;
+      max-width: 100%;
       max-height: 100%;
     }
-
+  
     .prediction-form {
       width: 40%;
       height: auto;
@@ -50,18 +50,26 @@
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       text-align: center;
     }
-
+  
     .prediction-form h2 {
       margin-bottom: 0.5rem;
       color: #3498db;
     }
-
+  
     .prediction-form label {
       display: block;
       margin-bottom: 0.2rem;
       color: #3498db;
     }
-
+  
+    .prediction-form input {
+      width: 70%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
     .prediction-form button {
       background-color: #3498db;
       color: #fff;
@@ -71,30 +79,30 @@
       cursor: pointer;
       transition: background-color 0.2s ease-in-out;
     }
-
+  
     .prediction-form button:hover {
       background-color: #2980b9;
     }
-
+  
     .prediction-form p {
       margin-top: 0.5rem;
       font-weight: bold;
       color: #3498db;
     }
-
+  
     /* Media Query for smaller screens */
     @media (max-width: 768px) {
       .prediction-form {
-        width: 90%; 
-        margin: 1rem 0; 
+        width: 90%;
+        margin: 1rem 0;
       }
-
+  
       .form-container {
-        flex-direction: column; 
-        align-items: center; 
+        flex-direction: column;
+        align-items: center;
       }
     }
-</style>
+  </style>
 </head>
 
 <body>

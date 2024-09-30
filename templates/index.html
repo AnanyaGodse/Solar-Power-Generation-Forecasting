@@ -116,7 +116,7 @@
         success: function (response) {
           const roundedPrediction = Math.round(response.prediction * 100) / 100;
           $("#prediction2").text(
-            "AC Power for Plant 2: " + roundedPrediction + " kW"
+            "AC Power for Plant 2: " + roundedPrediction + "W"
           );
         },
         error: function (jqXHR, textStatus, errorThrown) {
